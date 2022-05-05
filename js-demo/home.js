@@ -1,5 +1,3 @@
-let count = 1;
-while (i < 5) {
-    console.log(i);
-    i--;
-}
+//What is a Variable?
+let total = 500;
+let product = 'backpack';
