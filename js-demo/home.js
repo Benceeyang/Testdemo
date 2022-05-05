@@ -147,3 +147,32 @@ console.log(newValues); //b
 const values = ['a','b','c'];
 values.splice(1,1);
 console.log(values); //ac
+
+//splice() for inserting
+const values = ['a','b','c'];
+values.splice(1,0, 'foo'); //3 arguments for splicing, 1= starting index, 0= is the amount of items we wanted to delete, and 3rd index and up are all values inserted into the array
+console.log(values); //a foo b c
+
+//indexOf()
+const values = ['a','b','c'];
+console.log(values.indexOf('c')); //2
+console.log(values.indexOf('d')); //-1
+
+//filter()
+const values = ['a','b','c'];
+const set = values.filter(function(item){
+    return item > 'b';
+});
+console.log(set); //c
+
+//find()
+const values = ['a','bbb','c']; //the first time it's called, it will be 'a'/ then the second time will be 'bbb'/ after that the 3rd time will be c
+const found = values.find(function(item){
+    return item.length < 1 ;
+});
+console.log(found); //'bbb' 
+
+
+
+
+
