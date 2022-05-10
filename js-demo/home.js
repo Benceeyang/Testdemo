@@ -172,6 +172,27 @@ const found = values.find(function(item){
 });
 console.log(found); //'bbb' 
 
+//It is better to work with const > constant
+//let keywords for variables that can change
+
+//Global Scope and Function Scope
+//Scope refers to the area in which you can access a variable
+//Variables get declared in a scope
+//Global Scope is all of the variables that is affiliated with all the links
+
+//Polluting the Global Scope = Too many variables declared globally in the Global Scope > Causes bugs to show up
+
+//Function Scope = Declares a variable within the function / Cannot access the varirable outside the function
+
+//var keyword and the concept of hoisting
+
+
+
+console.log(productId);
+
+var productId = 123; //undefined
+
+
 
 
 
