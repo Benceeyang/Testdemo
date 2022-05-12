@@ -7,7 +7,7 @@
 // const price = 20;
 // //Var keyword makes the varaiable into undefined
 // var
-// //if() Statement
+//if() Statement
 // if (5 === 5){
 //     console.log('Yes)';) //true
 // }
